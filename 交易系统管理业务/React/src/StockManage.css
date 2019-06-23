@@ -1,0 +1,21 @@
+.Stock-back {
+    background-color: #282c34;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* font-size: calc(10px + 2vmin); */
+    /* color: white; */
+}
+
+.Stock-container{
+    padding: 20px;
+    width:80%;
+    clear:both;
+    top: 35%;
+    text-align:left;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+  }
+
