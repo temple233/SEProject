@@ -25,9 +25,9 @@ class Login extends React.Component{
       }).then(res=>res.json()).then(json=>{this.result=json})
         if (this.result.result) {
           alert("login success")
-        History.push('/StockManage')
+        //History.push('/StockManage')
         } else {
-          //alert("Error")
+          alert("login success")
         }
         event.preventDefault()
     }

@@ -22,6 +22,7 @@ class ManageLogin extends React.Component{
         })
       }).then(res=>res.json()).then(json=>{this.result=json})
         if (this.result.result) {
+          alert("Login Success")
         History.push('/StockManage')
         } else {
           alert("Error")
